@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="background image">
+        <div class="logo">
+            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="Odin logo">
+            <p>Odin</p>
+        </div>
+        <div class="image-credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+    </div>
+    <div class="login-container">
+        <div class="text">
+            Odin: Elevate university dining with our cafeteria management
+            app. Order, track, and pay online for a seamless and efficient food
+            experience.<br /><br />Sign up <em>now</em> to get started!
+        </div>
+        <div class="login-form">
+            <form class="login">
+                <div class="left">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="fristName" placeholder="Example: John">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Example: jd@gmail.com">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                    <div class="invalid"></div>
+                </div>
+
+                <div class="right">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Example: Doe">
+
+                    <label for="phoneNum">Email</label>
+                    <input type="tel" name="phoneNum" id="phoneNum" placeholder="Example: 123-456-7890">
+
+                    <label for="cPassword">Confirm Password</label>
+                    <input type="password" name="cPassword" id="cPassword" required>
+
+                </div>
+            </form>
+            <hr>
+            <button id="submit" value="Submit" form="login">Create Account</button>
+            <p>Already have a account?<a href="https://www.google.com/">Log in</a></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/norse');
+body{
+    background-color:f9fafb;
+    display: flex;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.image-container img{
+    width: 600px;
+    height: 100vh;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: stretch;
+    position: absolute;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.logo p{
+    color: white;
+    align-items: center;
+    align-content: center;
+    font-family: 'Norse', sans-serif;
+    font-size: 120px;
+    margin: 0;
+}
+.image-container .image-credit{
+    position: absolute;
+    align-items: flex-end;
+    align-self: flex-end;
+    color: white;
+    margin-bottom: 50px;
+}
+.image-credit >a{
+    color: white;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 200px;
+    margin-bottom: 70px;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+}
+.login .left{
+    display: flex;
+    flex-direction: column;
+}
+.login .right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.login input {
+    width: 200px;
+    padding: .2rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    outline: none;
+}
+.login input:focus{
+    box-shadow: 2px 3px 4px 0px #c3c3c3;
+    border: 1.5px solid #5e72e4;
+}
+button{
+    background-color: #596D48;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #596D48;
+    color: white;
+}
+.error {
+    outline: none !important;
+    border: 2px solid red !important;
+}
+.invalid{
+    color: red;
+}
